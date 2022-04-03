@@ -1,0 +1,48 @@
+body{
+    background-image:url(../imgs/background-wpp.png);
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+.square{
+    background: #A4A4A4;
+    text-align: center;
+    width: 30px;
+    display: inline-block;
+    padding: 35px;
+    font-size: 50px;
+    margin: 5px;
+    cursor: pointer;
+    color: #A4A4A4;
+}
+
+.player{
+    font-size: 25px;
+    margin-top: 15px;
+    color: white;
+}
+
+.winner{
+    font-size: 30px;
+    margin-top: 5px;
+    color: yellow;
+}
+
+button{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .3 ease all;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
